@@ -1,0 +1,112 @@
+body {
+  min-height: 100vh;
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  padding: 40px;
+}
+
+/* Container Principal */
+.container {
+  width: 100%;
+}
+
+/* Header */
+header {
+  width: 100%;
+  padding: 20px 0;
+
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+/* Secao Principal */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Imagem Principal */
+.hero-image {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Texto */
+.content {
+  max-width: 40%;
+}
+
+.content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Botao */
+.btn {
+  display: inline-block;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  padding: 12px 45px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+/* Rodape */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+/* Redes Sociais */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}

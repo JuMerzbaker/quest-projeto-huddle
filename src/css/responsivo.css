@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        max-width: 70%;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+
+    .content h1 {
+        margin-bottom: 10px;
+    }
+
+
+    footer {
+        justify-content: center;
+    }
+
+}
