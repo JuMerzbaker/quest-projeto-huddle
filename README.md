@@ -50,4 +50,4 @@ Este é um projeto de um desafio do Frontend Mentor desenvolvida com foco em có
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https://github.com/JuMerzbaker/quest-projeto-huddle.git
